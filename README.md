@@ -1,3 +1,18 @@
+Maintenance Warning
+===================
+
+The original
+[DSMultilineLabelNode](https://github.com/downrightsimple/DSMultilineLabelNode)
+does not appear to be maintained anymore.
+
+This fork contains a number of requested merges from the original
+project, and so can be used as a replacement.
+
+However, consider switching to an actively-maintained project with
+similar functionality such as
+[HLMultilineLabelNode](https://github.com/hilogames/HLSpriteKit) or
+[SKALabelNode](https://github.com/SpriteKitAlliance/SKAToolKit).
+
 DSMultilineLabelNode
 ====================
 
@@ -10,16 +25,16 @@ There is an exception as SKLabelNode appears to be more forgiving to having EXAC
 The main difference to using an SKLabelNode is that you now may specify the property
 
 	paragraphWidth
-	
+
 This is a value in pixels as to how wide you want your label node to expand before creating newlines. See the demo for example usage.
 
 Relevant files are DSMultilineLabelNode.h and DSMultilineLabelNode.m
- 
+
 Copyright (C) 2014 Downright Simple
 
 ----
 
-This software is licensed under an MIT-style license.  
+This software is licensed under an MIT-style license.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
